@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc1</title>
+    <link rel="stylesheet" href="calc1.css">
+</head>
+<body>
+    <main>
+        <h1>NORMAL CALCULATOR</h1>
+    </main>
+    <div class="calculator">
+        <div class="result">
+            <p class="display" id="question"> 0</p>
+            <p class="display" id="result"> 0</p>
+        </div>
+        <div class="keys">
+            <div class="row1">
+                <button id="opbr" class = "operator">(</button>
+                <button id="clbr" class = "operator">)</button>
+                <button id="percent">%</button>
+                <button id="clear">AC</button>
+            </div>
+            <div class="row2">
+                <button id="seven" class="num">7</button>
+                <button id="eight" class="num">8</button>
+                <button id="nine" class="num">9</button>
+                <button id="division" class="operator">÷</button>
+            </div>
+            <div class="row3">
+                <button id="four" class="num">4</button>
+                <button id="five" class="num">5</button>
+                <button id="six" class="num">6</button>
+                <button id="multiply" class="operator">x</button>
+            </div>
+            <div class="row4">
+                <button id="one" class="num">1</button>
+                <button id="two" class="num">2</button>
+                <button id="three" class="num">3</button>
+                <button id="sub" class="operator">-</button>
+            </div>
+            <div class="row5">
+                <button id="zero" class="num">0</button>
+                <button id="dot" class="num">.</button>
+                <button id="equals">=</button>
+                <button id="add" class="operator">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="view">
+        <div class="history">
+            <button id = hist>History</button>
+            <p class="displayHistory"></p>
+            <p class="displayHistory"></p>
+            <p class="displayHistory"></p>
+            <p class="displayHistory"></p>
+            <p class="displayHistory"></p>
+        </div>
+        <div class = "formula">
+            <button id = form>Basic Formulas</button>
+            <p>(a+b)<sup>2</sup> = a<sup>2</sup>+b<sup>2</sup>+2ab &nbsp &nbsp (a-b)<sup>2</sup> = a<sup>2</sup>+b<sup>2</sup>-2ab</p>
+            <p>(a - b)<sup>3</sup> = a<sup>3</sup> - 3a<sup>2</sup>b + 3ab<sup>2</sup> - b<sup>3</sup></p>
+            <p>(a + b)<sup>3</sup> = a<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup></p>
+            <p>(a+b+c)<sup>2</sup> = a<sup>2</sup>+b<sup>2</sup>+c<sup>2</sup>+2ab+2bc+2ca</p>
+            <button class="more"><a href="https://www.matematica.pt/en/useful/math-formulas.php" target="_blank">More Formulas</a></button>
+        </div>
+    </div>
+    <script src="calc1.js"></script>
+</body>
+</html>

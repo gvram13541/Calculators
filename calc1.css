@@ -79,3 +79,22 @@ a{
 .keys{
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .view{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 370px) {
+    button{
+        width: 60px;
+    }
+
+    .history button, .formula button {
+        width: 70px;
+    }
+}
